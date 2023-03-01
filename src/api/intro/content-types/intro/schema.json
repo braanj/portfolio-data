@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "intros",
+  "info": {
+    "singularName": "intro",
+    "pluralName": "intros",
+    "displayName": "Intro",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "greating": {
+      "type": "string",
+      "unique": true,
+      "required": true,
+      "default": "Hi, my name is"
+    },
+    "title": {
+      "type": "string",
+      "unique": true,
+      "required": true,
+      "default": "Brahim"
+    },
+    "subtitle": {
+      "type": "string",
+      "unique": true,
+      "required": true,
+      "default": "I build things for the web."
+    },
+    "description": {
+      "type": "richtext",
+      "required": true,
+      "maxLength": 250
+    },
+    "cta": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

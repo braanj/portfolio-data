@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "experciences",
+  "info": {
+    "singularName": "expercience",
+    "pluralName": "experciences",
+    "displayName": "Expercience",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "company": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "type": "date",
+      "required": true,
+      "unique": false
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "tasks": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
