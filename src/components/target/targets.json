@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_target_targets",
+  "info": {
+    "displayName": "Targets"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "other_projects",
+  "info": {
+    "singularName": "other-project",
+    "pluralName": "other-projects",
+    "displayName": "Other Projects"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "targets": {
+      "type": "component",
+      "repeatable": true,
+      "component": "target.targets"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.links"
+    }
+  }
+}
