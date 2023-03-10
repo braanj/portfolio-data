@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_links_ctas",
+  "info": {
+    "displayName": "cta"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true,
+      "default": "Say Hello"
+    },
+    "link": {
+      "type": "string",
+      "required": true,
+      "default": "#"
+    }
+  }
+}
